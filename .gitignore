@@ -1,0 +1,17 @@
+# Runtime and private material
+cluster.config
+**/logs/
+**/state/
+**/incoming/
+**/keys/
+*.pfx
+*.p12
+*.pem
+*.key
+.env
+.env.*
+*.log
+*.bak
+*.tmp
+*.zip
+*.bundle

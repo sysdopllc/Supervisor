@@ -1,0 +1,16 @@
+SYSDOP LLC | Supervisor HA | A-P
+Activo a Pasivo por eventos; cambio manual de roles.
+
+Antes de ejecutar, leer README.md, OPERACION-Y-SEGURIDAD.md y las
+limitaciones del repositorio. Usar un laboratorio con datos ficticios.
+Instalar por nodo, primero el primario de llaves. Configurar peers, roles,
+cuenta autorizada y rutas de aplicaciones. DryRun solo afecta IIS.
+
+Registros: C:\Supervisor\logs\webconfig_sync.log e iis_sync.log.
+Cadena: daily_sync.log en el emisor de la ráfaga.
+Verificar datos y permisos en destino; un estado de tarea no basta.
+Para retirar: detener tareas, comprobar motores, desregistrar tareas.
+Conservar evidencia. No eliminar IIS ni los datos de aplicaciones.
+
+Datos ilustrativos: NODE-A/B/C, example.com, direcciones TEST-NET.
+Licencia MIT; autor SYSDOP LLC. Ver LICENSE en el repositorio.
